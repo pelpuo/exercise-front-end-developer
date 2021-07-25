@@ -1,0 +1,35 @@
+.Facts{
+    padding:0 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Facts-title{
+    padding-bottom: 1em;
+    border-bottom: 2px solid #4A138A;
+}
+
+.Facts-table{
+    width: 100%;
+    margin: 0;
+}
+
+.Facts-table tr{
+    font-size: 0.9em;
+    height: 2.5em;
+}
+
+.Fact-stmt{
+    text-align: left;
+}
+
+.Fact-value{
+    text-align: right;
+}
+
+.Supplies{
+    background-color: #6917ED;
+    padding: 1em;
+    border-radius: 1em;
+}

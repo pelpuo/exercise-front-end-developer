@@ -1,0 +1,45 @@
+.Info-container{
+    height: 95vh;
+    overflow-y: scroll;
+    padding: 0;
+}
+
+.Links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3em 1em 1em 1em;
+}
+
+.Links-link{
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+.Links-website{
+    display: flex;
+    align-items: center;
+    background-color: #17141D;
+}
+
+.Links-reddit{
+    background-color: #17141D;
+}
+
+.Links-github{
+    background-color: #5E5BF9;
+}
+
+.Links-website small{
+    margin:0 1em;
+}
+
+
+
+.Links img{
+    width: 1.5em;
+}
+
+.Info-container-title{
+    margin-left: 2em;
+}

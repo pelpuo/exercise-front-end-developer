@@ -1,0 +1,52 @@
+.Exchange{
+    flex: 3;
+}
+
+.Exchange-row{
+    display: flex;
+    align-items: center;
+    margin: 0 2em;
+    justify-content: space-between;
+}
+
+.Exchange-row small{
+    color: #ACABAC;
+}
+
+.Exchange-row-value{
+    width: 30%;
+    text-align: left;
+}
+
+.Exchange-row-select{
+    background-color: #1C1822;
+    border: 0;
+    border-radius: 0.5em;
+    padding: 1em;
+    color: #fff;
+}
+
+.Exchange-row-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 2em;
+    justify-content: space-between;
+}
+
+.Exchange-row-bottom button{
+    padding: 1em;
+    width: 40%;
+    min-width: 100px;
+    background-color: #5E5BF9;
+    color: #fff;
+    border: 0;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Exchange-row-bottom button p{
+    margin: 0;
+}

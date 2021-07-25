@@ -1,0 +1,69 @@
+.Home-inner{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
+.Market-leaders-container, .All-coins-container, .Events-container{
+    background-color: #231E29;
+    padding: 0 1em 1em 1em;
+    border-radius: 1em;
+    margin: 0 0.5em 1em 0.5em;
+}
+
+.Market-leaders-container, .All-coins-container{
+    height: 50%;
+}
+.container-column{
+    /* display: grid; */
+    height: 80vh;
+    /* flex-direction: column; */
+    /* grid-template-rows: 1fr 1fr; */
+}
+
+.All-coins-container{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.All-coins-container-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* grid-template-columns: repeat(4, 1fr); */
+}
+
+.Events-container{
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.Market-leaders-container{
+    overflow-y: scroll;
+}
+
+.search-bar{
+    border: 1px solid #1D1C23;
+    max-width: 85%;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    border-radius: 0.7em;
+}
+
+.search-bar img{
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 5%;
+}
+
+.search-bar input{
+    background-color: #16131D;
+    width: 90%;
+    border: 0;
+    height: 2.5em;
+    color: #fff;
+}

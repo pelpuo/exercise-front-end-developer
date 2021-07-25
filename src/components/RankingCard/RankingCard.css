@@ -1,0 +1,9 @@
+.RankingCard{
+    background-color: #7600EE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 0.5em;
+    border-radius: 1em;
+    padding: 0.8em;
+}

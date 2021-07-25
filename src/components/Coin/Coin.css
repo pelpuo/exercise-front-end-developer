@@ -1,0 +1,13 @@
+.Coin{
+    background-color: #7600EE;
+    color: #fff;
+    padding: 0.2em;
+    margin: 1em;
+    border-radius: 0.7em;
+    flex: 10em 1 1;
+    /* min-width: 150px; */
+}
+
+.Coin h4{
+    text-align: center;
+}
