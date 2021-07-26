@@ -14,7 +14,7 @@ function Sidebar({ coins, currentCoin }) {
     useEffect(() => {
         if( currentCoin !== {}){
             setCoinId(currentCoin.id)
-        }else if(coins !== {}){
+        }else if(coins){
             setCoinId(coins[0].id)
         }
 

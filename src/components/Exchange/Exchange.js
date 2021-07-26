@@ -16,12 +16,12 @@ function Exchange({data}) {
         <small>Buy</small>
         <h2 className="Exchange-row-value">0.609898</h2>
         <select className="Exchange-row-select">
-          <option>BTC</option>
+          <option>{data.symbol}</option>
         </select>
       </div>
 
       <div className="Exchange-row-bottom">
-        <small>1 BTC  = 8343.43 USD</small>
+        <small>1 {data.symbol}  = {data?.market_data?.current_price?.usd} USD</small>
         <button><p>Exchange</p> <small>&rarr;</small></button>
       </div>
     </div>

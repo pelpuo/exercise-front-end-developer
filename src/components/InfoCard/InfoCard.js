@@ -18,6 +18,7 @@ function InfoCard({ data }) {
           <div className="Links">
             <a
               href={data?.links?.homepage[0]}
+              style={{color:"#fff", textDecoration:"none"}}
               className="Links-website Links-link"
             >
               <small>Website</small>
