@@ -1,7 +1,7 @@
 import React from "react";
 import "./Exchange.css";
 
-function Exchange() {
+function Exchange({data}) {
   return (
     <div className="Exchange">
       <h4 className="Exchange-title">Exchange</h4>

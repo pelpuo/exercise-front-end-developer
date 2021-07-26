@@ -2,8 +2,7 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 // Importing pages
@@ -19,7 +18,7 @@ function App() {
       <div className="App">
         <Sidebar/>
         <Switch>
-          <Route path="/stats">
+          <Route path="/stats/:coinId">
             <Stats />
           </Route>
           <Route exact path="/">
